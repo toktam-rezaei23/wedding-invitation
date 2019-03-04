@@ -26,26 +26,21 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
 }
 input {
     margin: 10px 0;
+    background: transparent;
+    border: 1px dashed pink;
+    padding: 7px
 }
 
 label {
     display: block;
     font-size: 0.9em;
 }
-
-
-.invitation {
-    width: 500px;
-    height: 700px;
-    background-color: white;
-}
-
-
-/* New styles here */
 
 .container {
     display: flex;
@@ -63,7 +58,11 @@ label {
 .preview {
     width: 900px;
     height: 700px;
-    margin: auto;
+    margin: 20px auto;
+}
+
+.preview div {
+    padding: 20px;
 }
 
 
