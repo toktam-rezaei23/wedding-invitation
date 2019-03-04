@@ -1,15 +1,15 @@
 .style1 {
-    background-image: url('/images/flowers.jpg');
+    background-image: url('images/flowers.jpg');
 
 }
 
 .style2 {
-    background-image: url('/images/beach.jpg');
+    background-image: url('images/beach.jpg');
 
 }
 
 .style3 {
-    background-image: url('/images/nature.jpg')
+    background-image: url('images/nature.jpg')
 }
 
 button {
