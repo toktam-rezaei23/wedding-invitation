@@ -1,0 +1,70 @@
+.style1 {
+    background-image: url('/images/flowers.jpg');
+
+}
+
+.style2 {
+    background-image: url('/images/beach.jpg');
+
+}
+
+.style3 {
+    background-image: url('/images/nature.jpg')
+}
+
+button {
+    background-color: blanchedalmond;
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 100px;
+}
+ 
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+input {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-size: 0.9em;
+}
+
+
+.invitation {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+}
+
+
+/* New styles here */
+
+.container {
+    display: flex;
+}
+
+.controls {
+    margin: 60px 30px 0 30px;
+}
+
+.preview-box {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.preview {
+    width: 900px;
+    height: 700px;
+    margin: auto;
+}
+
+
+

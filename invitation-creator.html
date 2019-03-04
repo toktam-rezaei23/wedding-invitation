@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="invitaiton">
+        <h1>Wedding Invitation Designer</h1>
+
+        <div class="container">
+            <div class="controls">
+                <label>First Name</label>
+                <input type="text" class="first_name" onkeyup="updateFirstName()" />
+
+                <label>Second Name</label>
+                <input type="text" class="second_name" onkeyup="updateSecondName()" />
+
+                <label>Last Name</label>
+                <input type="text" class="last_name" onkeyup="updateLastName()" />
+
+                <label>Date</label>
+                <input type="date" class="date" onchange="updateDate()" />
+
+                <label>Location</label>
+                <input type="text" class="location" onkeyup="updateLocation()" />
+            </div>
+
+            <div class="preview-box">
+                <button type="button" onclick="changeStyle1()">Flowers</button>
+                <button type="button" onClick="changeStyle2()">Beach</button>
+                <button type="button" onClick="changeStyle3()">Nature</button>
+
+                <div class="preview">
+                    <h1 id="first_name_label">First Name</h1>
+                    <h1 id="second_name_label">Second Name</h1>
+                    <h1 id="last_name_label">Last Name</h1>
+                    <h1 id="date">Date</h1>
+                    <h1 id="location">Location</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
