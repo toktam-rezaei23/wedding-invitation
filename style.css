@@ -32,9 +32,10 @@ h1 {
 }
 input {
     margin: 10px 0;
-    background: transparent;
+    background: white;
     border: 1px dashed pink;
     padding: 7px
+    
 }
 
 label {
